@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8047105672:AAGjjR3N8IkixNAWiHSnxZDVe9-305GZdjc")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Я бот на Render!")
